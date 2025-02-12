@@ -83,7 +83,7 @@ with st.container():
     with image_column:
         st.image(img_contact_form)
     with text_column:
-        st.subheader("Emergency-Vehicle-Route-Optimization-using-SUMO")
+        st.subheader("Emergency Vehicle Route Optimization using SUMO")
         st.write(
             """
             Optimizing emergency vehicle routes using SUMO! 🚑⚡
