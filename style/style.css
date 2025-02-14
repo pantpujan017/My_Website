@@ -26,8 +26,27 @@ button[type=submit]:hover {
   background-color: #45a049;
 }
 
-
 /* Hide Streamlit Branding */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
+/* Style for social media links */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-links img {
+  transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+/* Style for social media images */
+img {
+  max-width: 100%;
+  height: auto;
+}
