@@ -27,6 +27,8 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 img_contact_form = Image.open("images/emergency.png")
 img_lottie_animation = Image.open("images/IMG_5651.jpg")
+img_contact_form1 = Image.open("images/ss.png")
+img_contact_form2 = Image.open("images/route.png")
 
 # Load social media icons
 linkedin_icon = Image.open("images/linkedin.png")  # Make sure to add these images
@@ -94,6 +96,37 @@ with st.container():
             """
         )
         st.markdown("[More on...](https://github.com/pantpujan017/Emergency-Vehicle-Route-Optimization-using-SUMO.git)")
+
+
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_contact_form1)
+    with text_column:
+        st.subheader("Intelligent Traffic System for Urban Condition using Real time Vehicle Tracking")
+        st.write(
+            """
+            Optimizing traffic density at intersection 
+            This project focuses on reducing wait time for vehicle on intersection to reach destination at time.
+            Explore the code and implementation on GitHub!.
+            """
+        )
+        st.markdown("[More on...](https://github.com/pantpujan017/Intelligent-Traffic-System-for-Urban-Condition-using-Real-time-Vehicle-Tracking)")
+
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_contact_form2)
+    with text_column:
+        st.subheader("Tag Based Route Optimization Using A* Algorithm")
+        st.write(
+            """
+            Recommend User different places on path based on tag they select! 
+            This project focuses providing user map to reach destination with recommended places onn the way.
+            Explore the code and implementation on GitHub!.
+            """
+        )
+        st.markdown("[More on...](https://github.com/pantpujan017/-Tag-Based-Route-Optimization-Using-A-Algorithm-)")
 
 
 # ---- CONNECT WITH ME ----
