@@ -106,7 +106,7 @@ with st.container():
         st.subheader("Intelligent Traffic System for Urban Condition using Real time Vehicle Tracking")
         st.write(
             """
-            Optimizing traffic density at intersection 
+            Optimizing traffic density at intersection.
             This project focuses on reducing wait time for vehicle on intersection to reach destination at time.
             Explore the code and implementation on GitHub!.
             """
@@ -121,8 +121,8 @@ with st.container():
         st.subheader("Tag Based Route Optimization Using A* Algorithm")
         st.write(
             """
-            Recommend User different places on path based on tag they select! 
-            This project focuses providing user map to reach destination with recommended places onn the way.
+            Recommend sser different places on path based on tag they select. 
+            This project focuses providing user map to reach destination with recommended places on the way.
             Explore the code and implementation on GitHub!.
             """
         )
